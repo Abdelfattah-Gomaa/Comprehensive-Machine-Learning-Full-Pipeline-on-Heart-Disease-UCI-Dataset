@@ -1,0 +1,33 @@
+Evaluation Metrics Used in the Heart Disease Prediction Project
+---------------------------------------------------------------
+
+1. Accuracy
+   - Proportion of correctly classified instances among all instances.
+
+2. Precision (weighted)
+   - Weighted average precision across all classes.
+   - Precision = TP / (TP + FP).
+   - High precision means fewer false positives.
+
+3. Recall (weighted)
+   - Weighted average recall across all classes.
+   - Recall = TP / (TP + FN).
+   - High recall means fewer false negatives.
+
+4. F1-score (weighted)
+   - Harmonic mean of precision and recall.
+   - Provides a balance between precision and recall.
+   - Useful when classes are imbalanced.
+
+5. ROC AUC (One-vs-Rest, multi-class)
+   - Area under the ROC curve, averaged using the OvR strategy.
+   - Measures the ability of the model to discriminate between classes.
+
+6. Confusion Matrix
+   - Tabular visualization of actual vs predicted classes.
+   - Shows classification performance across classes.
+
+7. Adjusted Rand Index (ARI) [for clustering]
+   - Measures similarity between clustering results and ground-truth labels.
+   - Adjusted for chance; ranges from -1 to 1.
+   - 1 = perfect clustering, 0 = random assignment.
